@@ -1,0 +1,41 @@
+# dependencias
+node_modules/
+.pnp
+.pnp.js
+
+# build
+.next/
+out/
+dist/
+build/
+*.tsbuildinfo
+next-env.d.ts
+
+# segredos: NUNCA versionar
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# banco de dados e conteudo enviado por usuario
+*.sqlite
+*.sqlite3
+*.sqlite3-wal
+*.sqlite3-shm
+*.db
+uploads/
+public/uploads/
+
+# logs e temporarios
+*.log
+logs/
+npm-debug.log*
+tmp/
+.cache/
+
+# sistema
+.DS_Store
+Thumbs.db
